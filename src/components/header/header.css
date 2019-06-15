@@ -1,0 +1,11 @@
+.demo ul {
+  justify-content: center;
+  display: flex;
+  list-style: none;
+}
+.demo ul li {
+  margin: 1vmin;
+}
+.demo {
+  font-size: 24pt;
+}

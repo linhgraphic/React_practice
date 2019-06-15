@@ -1,16 +1,12 @@
 import React, { Component } from "react";
 import "./App.css";
-import { Link } from "react-router-dom";
+import Header from "./components/header";
 
 class App extends Component {
   render() {
     return (
       <div className="App">
-        <header>
-          <Link to="/">Home</Link>
-          <Link to="/about">about</Link>
-          <Link to="/contact-list">contacts</Link>
-        </header>
+        <Header />
         {this.props.children}
       </div>
     );
