@@ -1,7 +1,5 @@
 import React, { Component } from "react";
-import { Link } from "react-router-dom";
-import contacts from "../fixtures";
-import ContactCard from "../components/contactCard";
+
 class About extends Component {
   render() {
     return (

@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React from "react";
 import contacts from "../fixtures";
 import ContactCard from "../components/contactCard";
 

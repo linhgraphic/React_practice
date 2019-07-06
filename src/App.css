@@ -1,10 +1,10 @@
 .App {
   text-align: center;
 }
-.btn{
+.btn {
   color: yellow;
   font: bold;
-  background-color: black
+  background-color: black;
 }
 .App-logo {
   animation: App-logo-spin infinite 20s linear;
