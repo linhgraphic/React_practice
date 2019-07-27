@@ -24,7 +24,7 @@ self.__precacheManifest = [
     "url": "/static/media/linhgraphics.96778282.jpg"
   },
   {
-    "revision": "1eb4a556821cf0cdefedd9b6038cdfb4",
+    "revision": "4ec52b3a2a7e0f59d2dc28242722e8e1",
     "url": "/index.html"
   }
 ];
