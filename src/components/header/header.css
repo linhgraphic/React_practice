@@ -9,3 +9,9 @@
 .demo {
   font-size: 24pt;
 }
+.demo ul li a {
+  color: green;
+}
+.demo ul li a.active {
+  color: red;
+}
