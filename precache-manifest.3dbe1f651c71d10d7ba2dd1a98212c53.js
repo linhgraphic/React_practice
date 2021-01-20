@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "cff267a2d0b429ce429d",
-    "url": "yarn%20start/static/css/main.0d920feb.chunk.css"
+    "revision": "863f535aec187438d345",
+    "url": "yarn%20start/static/css/main.8e2a260e.chunk.css"
   },
   {
-    "revision": "cff267a2d0b429ce429d",
-    "url": "yarn%20start/static/js/main.fa4d845b.chunk.js"
+    "revision": "863f535aec187438d345",
+    "url": "yarn%20start/static/js/main.a0407b7b.chunk.js"
   },
   {
     "revision": "d5c971e313aab941ae72",
@@ -60,7 +60,7 @@ self.__precacheManifest = [
     "url": "yarn%20start/static/media/ProjectBg02.2e5e0f73.jpg"
   },
   {
-    "revision": "bd7676254076756678f9a94f012694a6",
+    "revision": "48bc8719ec5735a989187b8c5378b1f6",
     "url": "yarn%20start/index.html"
   }
 ];
