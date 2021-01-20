@@ -1,0 +1,62 @@
+.app-home {
+  color: #003400;
+  min-height: 100vh;
+  background-color: pink;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-shadow: 5px 5px 5px grey;
+  background: url("../../assets/images/HomeBg01.jpg") right top no-repeat;
+  background-size: cover;
+  background-position-x: center;
+  background-position-y: top;
+}
+
+.app-home h1 {
+  font-size: 15vmin;
+}
+
+.app-home h2 {
+  font-size: 10vmin;
+}
+
+.app-home hr {
+  width: 50vw;
+  border: 0;
+  border-top: 3px solid black;
+  box-shadow: 5px 5px 5px grey;
+}
+
+.icon-wrapper {
+  font-size: 8vmin;
+  position: relative;
+}
+
+.icon-wrapper .svg-inline--fa {
+  margin: 2vmin;
+  position: relative;
+  animation: tech 2s linear infinite;
+}
+
+.icon-wrapper .svg-inline--fa:nth-child(even) {
+  animation: tech 2s linear infinite reverse;
+}
+
+@keyframes tech {
+  0% {
+    top: 0px;
+  }
+  25% {
+    top: 0.5vmin;
+  }
+  50% {
+    top: 0px;
+  }
+  75% {
+    top: -0.5vmin;
+  }
+  100% {
+    top: 0px;
+  }
+}

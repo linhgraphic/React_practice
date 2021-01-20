@@ -7,8 +7,8 @@ import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import "bootstrap/dist/css/bootstrap.css";
 import Home from "./pages/Home";
 import About from "./pages/About";
-import ContactList from "./pages/ContactList";
-import Projects from "./pages/projects/";
+import Contacts from "./pages/Contacts";
+import Projects from "./pages/Projects";
 
 ReactDOM.render(
   <Router>
@@ -17,7 +17,7 @@ ReactDOM.render(
         <Route exact path="/" component={Home} />
         <Route exact path="/projects" component={Projects} />
         <Route exact path="/about" component={About} />
-        <Route exact path="/contact-list" component={ContactList} />
+        <Route exact path="/contact-list" component={Contacts} />
       </Switch>
     </App>
   </Router>,

@@ -18,15 +18,13 @@ const Header = () => {
 
   return (
     <header>
-      <nav className="demo">
+      <nav className="nav-menu mobile-only">
         <Button
           aria-controls="simple-menu"
           aria-haspopup="true"
           onClick={handleClick}
         >
-          <span aria-label="Menu" role="img">
-            🍔Menu
-          </span>
+          <span aria-label="About" role="img"></span>Menu
         </Button>
         <Menu
           id="simple-menu"
@@ -38,26 +36,39 @@ const Header = () => {
           <MenuItem onClick={handleClose}>
             <NavLink exact to="/">
               <span aria-label="Home" role="img">
-                🏠 Home
+                Home
               </span>
             </NavLink>
           </MenuItem>
           <MenuItem onClick={handleClose}>
             <NavLink to="/about">
               <span aria-label="About" role="img">
-                🔍 About
+                About
               </span>
             </NavLink>
           </MenuItem>
           <MenuItem onClick={handleClose}>
-            <NavLink to="/contact-list">
-              <NavLink to="/projects">Projects</NavLink>
-            </NavLink>
+            <NavLink to="/projects">Projects</NavLink>
           </MenuItem>
           <MenuItem onClick={handleClose}>
             <NavLink to="/contact-list">Contacts</NavLink>
           </MenuItem>
         </Menu>
+      </nav>
+
+      <nav className="nav-menu desktop-only">
+        <NavLink exact to="/">
+          <span aria-label="Home" role="img">
+            Home
+          </span>
+        </NavLink>
+        <NavLink to="/about">
+          <span aria-label="About" role="img">
+            About
+          </span>
+        </NavLink>
+        <NavLink to="/projects">Projects</NavLink>
+        <NavLink to="/contact-list">Contacts</NavLink>
       </nav>
     </header>
   );

@@ -1,0 +1,25 @@
+.contacts-container {
+  background: lightgreen;
+  min-height: calc(100vh - 3em);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-shadow: 5px 5px 5px grey;
+  margin-top: 2em;
+  font-size: 2vmin;
+  background: url("../../assets/images/ContactBg01.jpg") right top no-repeat;
+  background-size: cover;
+}
+.contacts-container h1 {
+  font-size: 6vmin;
+}
+
+.contacts-container ul {
+  list-style-type: none;
+  font-size: 4vmin;
+}
+
+.contacts-container a {
+  color: black;
+}

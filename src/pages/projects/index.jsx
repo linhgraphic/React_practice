@@ -1,19 +1,19 @@
 import React, { Component } from "react";
-import "./projects.css";
+import "./Projects.css";
 import { projects } from "../../constants";
-import ProjectCard from "../../components/projectCard";
+import ProjectCard from "../../components/ProjectCard";
 
 class Projects extends Component {
   render() {
     return (
-      <>
-        <div>My projects</div>
-        <div className="projects-container">
-          {projects.map(project => (
+      <main className="projects-container">
+        <h1>My projects</h1>
+        <div className="project-cards">
+          {projects.map((project) => (
             <ProjectCard project={project} />
           ))}
         </div>
-      </>
+      </main>
     );
   }
 }

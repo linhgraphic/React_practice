@@ -1,17 +1,13 @@
-.demo ul {
-  justify-content: center;
-  display: flex;
-  list-style: none;
+header {
+  position: fixed;
+  top: 0;
+  width: 100vw;
+  background: white;
 }
-.demo ul li {
+
+.nav-menu a {
+  font-size: calc(10px + 2vmin);
+  color: darkgreen;
+  padding: 1vmin;
   margin: 1vmin;
-}
-.demo {
-  font-size: 24pt;
-}
-.demo ul li a {
-  color: green;
-}
-.demo ul li a.active {
-  color: red;
 }
