@@ -12,6 +12,7 @@
 }
 
 .about-container h1 {
+  font-size: 4.2vmin;
   margin-top: 2em;
   color: rgb(112, 28, 28);
 }
@@ -33,6 +34,7 @@
 .about-container p {
   margin-top: 2em;
   font-size: calc(10px + 1.5vmin);
+  width: 50vw;
 }
 
 @media screen and (min-width: 600px) {

@@ -11,6 +11,10 @@
 .MuiCollapse-wrapperInner .MuiTypography-paragraph {
   margin-bottom: 0;
 }
+
+.MuiIconButton-root button {
+  font-size: 0.9em;
+}
 @media screen and (min-width: 600px) {
   .project-card {
     width: 25vw;
