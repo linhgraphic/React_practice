@@ -1,6 +1,5 @@
 .about-container {
-  background: rgb(82, 252, 82) url("../../assets/images/AboutBg.jpg") no-repeat
-    right top;
+  background: url("../../assets/images/AboutBg.jpg") no-repeat right top;
   background-size: cover;
   min-height: calc(100vh - 3em);
   display: flex;

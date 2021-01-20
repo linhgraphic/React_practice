@@ -22,11 +22,7 @@ const ProjectCard = function ({ project }) {
   return (
     <Card className="project-card">
       <CardHeader title={project.name} subheader={project.subtitle} />
-      <CardMedia
-        className="project-img"
-        image={project.img}
-        title="Paella dish"
-      />
+      <CardMedia className="project-img" image={project.img} />
       <CardActions disableSpacing>
         <IconButton
           onClick={handleExpandClick}

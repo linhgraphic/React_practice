@@ -8,6 +8,9 @@
   height: 15vh;
 }
 
+.MuiCollapse-wrapperInner .MuiTypography-paragraph {
+  margin-bottom: 0;
+}
 @media screen and (min-width: 600px) {
   .project-card {
     width: 25vw;

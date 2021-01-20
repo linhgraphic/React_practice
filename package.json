@@ -1,6 +1,6 @@
 {
   "name": "start",
-  "homepage": "https://linhgraphic.github.io",
+  "homepage": "yarn start",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
