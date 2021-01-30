@@ -1,23 +1,23 @@
 self.__precacheManifest = [
   {
-    "revision": "09dcaadedc601fdc22cc",
-    "url": "/static/css/main.ea688af6.chunk.css"
+    "revision": "eeffd7f543ba46175bde",
+    "url": "/static/css/main.5c54240a.chunk.css"
   },
   {
-    "revision": "09dcaadedc601fdc22cc",
-    "url": "/static/js/main.8418679d.chunk.js"
+    "revision": "eeffd7f543ba46175bde",
+    "url": "/static/js/main.147516e6.chunk.js"
   },
   {
     "revision": "42ac5946195a7306e2a5",
     "url": "/static/js/runtime~main.a8a9905a.js"
   },
   {
-    "revision": "14c2f54b70a91c8c9fcc",
+    "revision": "bd1cc4c3c3b6d5cd0b3e",
     "url": "/static/css/2.b4bd0e2f.chunk.css"
   },
   {
-    "revision": "14c2f54b70a91c8c9fcc",
-    "url": "/static/js/2.094c9cec.chunk.js"
+    "revision": "bd1cc4c3c3b6d5cd0b3e",
+    "url": "/static/js/2.25c5e196.chunk.js"
   },
   {
     "revision": "518a5b17f44365f558a4e1f60017151f",
@@ -40,6 +40,10 @@ self.__precacheManifest = [
     "url": "/static/media/CalculatorApp.3a8e01bb.JPG"
   },
   {
+    "revision": "b6c55f414d89082f88124e17f8660d75",
+    "url": "/static/media/MemoGame.b6c55f41.JPG"
+  },
+  {
     "revision": "157c58eb17a67d5696442322136170b9",
     "url": "/static/media/HomeBg01.157c58eb.jpg"
   },
@@ -48,8 +52,8 @@ self.__precacheManifest = [
     "url": "/static/media/CV-Linh Nguyen.6562304a.pdf"
   },
   {
-    "revision": "a23e7d9463120ab333c77d25fb722948",
-    "url": "/static/media/AboutBg.a23e7d94.jpg"
+    "revision": "2d48728a6f4b80de4e2fcdfb3124bb7c",
+    "url": "/static/media/AboutBg06.2d48728a.jpg"
   },
   {
     "revision": "c9e096ddbc4b23a84ea582ee2afa8fde",
@@ -60,7 +64,7 @@ self.__precacheManifest = [
     "url": "/static/media/ProjectBg02.2e5e0f73.jpg"
   },
   {
-    "revision": "414b3209897f4b7915716c4ef1bb6537",
+    "revision": "e305fc798a8b717aa613fdba0f0d804f",
     "url": "/index.html"
   }
 ];
