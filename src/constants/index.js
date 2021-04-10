@@ -2,19 +2,21 @@ import WeatherApp from "../assets/images/WeatherApp.JPG";
 import GameOfLifeApp from "../assets/images/GameOfLifeApp.JPG";
 import CalculatorApp from "../assets/images/CalculatorApp.JPG";
 import MemoGame from "../assets/images/MemoGame.JPG";
+import Playlist from "../assets/images/Playlist.JPG";
 
 export const projects = [
   {
     url: "https://playlist-app-graphpql.netlify.app/",
-    name: "Shared laylist app",
+    name: "Shared playlist app",
     expandedTitle: "A full-stack app with my music server",
     description: [
       "Tech stack: full-stack",
       "Server side: Node.js, Graphql, MongoDb were used to build my music server",
+      "Apollo Client for communication layer between front-end and back-end",
       "Client side:  React.js",
-      "Semantic-ui and extensive use of flexbox was used for responsive design",
+      "Semantic-ui and an extensive use of flexbox was used for responsive design",
     ],
-    img: MemoGame,
+    img: Playlist,
   },
   {
     url: "https://linhgraphic.github.io/memo-game/",
