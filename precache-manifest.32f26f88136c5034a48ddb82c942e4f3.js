@@ -1,23 +1,27 @@
 self.__precacheManifest = [
   {
-    "revision": "b84a08d07af503eb2f67",
+    "revision": "970090199ffa755387b7",
     "url": "/static/css/main.5c54240a.chunk.css"
   },
   {
-    "revision": "b84a08d07af503eb2f67",
-    "url": "/static/js/main.ba3b93a0.chunk.js"
+    "revision": "970090199ffa755387b7",
+    "url": "/static/js/main.83b2056a.chunk.js"
   },
   {
     "revision": "42ac5946195a7306e2a5",
     "url": "/static/js/runtime~main.a8a9905a.js"
   },
   {
-    "revision": "bd1cc4c3c3b6d5cd0b3e",
+    "revision": "139de4eb41603449047b",
     "url": "/static/css/2.b4bd0e2f.chunk.css"
   },
   {
-    "revision": "bd1cc4c3c3b6d5cd0b3e",
-    "url": "/static/js/2.25c5e196.chunk.js"
+    "revision": "139de4eb41603449047b",
+    "url": "/static/js/2.9296ad28.chunk.js"
+  },
+  {
+    "revision": "b6c55f414d89082f88124e17f8660d75",
+    "url": "/static/media/MemoGame.b6c55f41.JPG"
   },
   {
     "revision": "518a5b17f44365f558a4e1f60017151f",
@@ -40,10 +44,6 @@ self.__precacheManifest = [
     "url": "/static/media/CalculatorApp.3a8e01bb.JPG"
   },
   {
-    "revision": "b6c55f414d89082f88124e17f8660d75",
-    "url": "/static/media/MemoGame.b6c55f41.JPG"
-  },
-  {
     "revision": "157c58eb17a67d5696442322136170b9",
     "url": "/static/media/HomeBg01.157c58eb.jpg"
   },
@@ -64,7 +64,7 @@ self.__precacheManifest = [
     "url": "/static/media/ProjectBg02.2e5e0f73.jpg"
   },
   {
-    "revision": "78189e2575658fcdd1a0a261ef7b0527",
+    "revision": "3dcab3a4daccfe6504c2741831e4b9da",
     "url": "/index.html"
   }
 ];
