@@ -5,11 +5,23 @@ import MemoGame from "../assets/images/MemoGame.JPG";
 
 export const projects = [
   {
+    url: "https://playlist-app-graphpql.netlify.app/",
+    name: "Shared laylist app",
+    expandedTitle: "A full-stack app with my music server",
+    description: [
+      "Tech stack: full-stack",
+      "Server side: Node.js, Graphql, MongoDb were used to build my music server",
+      "Client side:  React.js",
+      "Semantic-ui and extensive use of flexbox was used for responsive design",
+    ],
+    img: MemoGame,
+  },
+  {
     url: "https://linhgraphic.github.io/memo-game/",
     name: "Memo Game App",
     expandedTitle: "My memo game version ",
     description: [
-      "Buit with React.js.",
+      "Built with React.js.",
       "This project is implemented to improve my skills in React hooks, data structure and local storage management.",
       "Responsive design.",
     ],
@@ -20,9 +32,9 @@ export const projects = [
     name: "Weather App",
     expandedTitle: "Querying a server to get live data in my UI",
     description: [
-      "My first React App.",
       "Built with React.js.",
       "Using Fetch API to retrieve real-time data from Weather API.",
+      "Structuring the fetched data into a user-friendly layout.",
     ],
     img: WeatherApp,
   },
@@ -31,9 +43,9 @@ export const projects = [
     name: "Game Of Life App",
     expandedTitle: "My implementation of John Conway's cellular automaton",
     description: [
-      "Buit with React.js.",
+      "Built with React.js.",
       "Combining stateful and stateless components.",
-      "Using React Hooks to sync state to local storage.",
+      "Using React hooks to sync state to local storage.",
     ],
     img: GameOfLifeApp,
   },
@@ -41,7 +53,7 @@ export const projects = [
     url: "http://linhgraphic.github.io/my-calculator/",
     name: "Calculator App",
     expandedTitle: "My own little abacus",
-    description: ["Buit with React.js.", "simple calculator simulation."],
+    description: ["Buit with React.js.", "Simple calculator simulation."],
     img: CalculatorApp,
   },
 ];
